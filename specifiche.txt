@@ -1,3 +1,10 @@
+Ruolo Amministratore:    username: davide  
+                         password: sedici
+                        
+Ruolo utente_generico:   username: luigi
+                         password: diciotto
+
+
 Casi d'uso implementati :
 
 Specifiche • Caso d'uso UC1: consulta offerta
