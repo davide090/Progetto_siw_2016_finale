@@ -1,0 +1,73 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	color: #565656;
+	background-image: url(img/PicMonkeyCollage.jpg);
+	background-size: cover;
+	background-opaticy: 0.3;
+	position: relative;
+	text-align: center;
+	font-size: large;
+}
+
+h1 {
+	color: #000000;
+	font-family: serif;
+	font-size: large;
+	text-align: center;
+}
+
+
+#form {
+	width: 500px;
+	margin: 50px auto;
+	background: #222;
+	padding: 25px;
+	overflow: hidden;
+	border: 8px solid #FFCC33;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	text-align: center;
+}
+
+input, textarea { /* Stili per il campo di testo e per la textarea */
+	text-align: center;
+	background: #ecf1ff; /* Colore di sfondo */
+	border: 1px solid #323232; /* Bordo */
+	color: #000000; /* Colore del testo */
+	height: 30px; /* Altezza */
+	line-height: 30px; /* Altezza di riga */
+	width: 120px; /* Larghezza */
+	padding: 0 10px;
+	background: #ecf1ff; /* Padding */
+	text-align: center;
+}
+
+#submit {
+	/* immagine di sfondo */
+	border: none; /* nessun bordo */
+	color: #000000; /* colore del testo    */
+	font-weight: bold; /* testo in grassetto  */
+	padding: 0; /* padding             */
+	height: 25px; /* altezza             */
+	width: 80px; /* larghezza           */
+}
+
+button, textarea { /* Stili per il campo di testo e per la textarea */
+	color: #000000;
+	text-align: center;
+	background: #ecf1ff; /* Colore di sfondo */
+	border: 1px solid #323232; /* Bordo */
+	color: #000000; /* Colore del testo */
+	height: 30px; /* Altezza */
+	line-height: 30px; /* Altezza di riga */
+	width: 120px; /* Larghezza */
+	padding: 0 10px;
+	background: #ecf1ff; /* Padding */
+}
+
+input {
+	font-weight: bold;
+}
